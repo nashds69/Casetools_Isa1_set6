@@ -10,7 +10,13 @@ public class Vegetable {
 		
 		Vegetable spinach = new Vegetable("spinach");
 		System.out.println("Vegetable is" + spinach.name);
-		
 	}
 
+
+	String getType()
+	{
+		return name;
+		
+	}
 }
+
